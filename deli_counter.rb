@@ -19,10 +19,11 @@ end
 #end
 $counter = 0
 def take_a_number
-  
+
   $counter += 1
-  puts "Order number #{counter}."
+  puts "Order number #{$counter}."
 end
+puts take_a_number
 puts take_a_number
 
 def now_serving(katz_deli)
