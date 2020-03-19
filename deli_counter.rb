@@ -25,6 +25,7 @@ def take_a_number
 end
 puts take_a_number
 puts take_a_number
+puts take_a_number
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
