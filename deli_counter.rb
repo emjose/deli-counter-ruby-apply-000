@@ -17,10 +17,10 @@ end
   #katz_deli << name
   #puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 #end
-counter = 0
+$counter = 0
 def take_a_number
   
-  counter += 1
+  $counter += 1
   puts "Order number #{counter}."
 end
 puts take_a_number
